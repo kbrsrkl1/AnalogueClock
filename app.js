@@ -1,4 +1,4 @@
-const  hourEl  = document.querySelector(".hour");
+const  hourEl  = document.querySelector(".hours");
 const  minuteEl  = document.querySelector(".minute");
 const  secondEl  = document.querySelector(".second");
 
@@ -19,4 +19,4 @@ function updateClock(){
 
 }
 
-updateClock()
+updateClock() /* Sayfa açılır açılmaz saat çalışmaya başlasın diye bu satırı en sonda çağırıyoruz.*/
